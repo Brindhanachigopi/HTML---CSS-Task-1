@@ -1,0 +1,36 @@
+
+:root {
+    --banner-bg-color: #f2f2f2;
+    --border-seperate-color: #99acba;
+    --primary-font: "Poppins", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    background-color: rgb(207, 255, 226);
+}
+
+.container-bg {
+    background-color: var(--banner-bg-color);
+    height: 100%;
+}
+
+.border-seperate {
+    border-right: 2px dashed var(--border-seperate-color);
+}
+
+.num {
+    font-size: 50px;
+}
+
+.percent {
+    font-size: 40px;
+}
+
+small{
+    background-color: #cff8fa;
+    color: #4a7a48;
+}
